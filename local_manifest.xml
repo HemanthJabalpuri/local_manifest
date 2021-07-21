@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <project path="device/realme/RMX2185" name="HemanthJabalpuri/android_device_realme_RMX2185.git" remote="github" revision="cipher" />
-    <project path="vendor/realme/RMX2185" name="HemanthJabalpuri/proprietary_vendor_realme_RMX2185.git" remote="github" revision="cipher" />
+    <remote name="me" fetch="https://github.com/HemanthJabalpuri" />
+
+    <!-- Device and Vendor trees -->
+    <project path="device/realme/RMX2185" name="android_device_realme_RMX2185.git" remote="me" revision="arrow" clone-depth="1" />
+    <project path="vendor/realme/RMX2185" name="proprietary_vendor_realme_RMX2185.git" remote="me" revision="arrow" clone-depth="1" />
+
+    <!-- Patches -->
+    <remove-project name="platform/frameworks/opt/net/wifi" />
+    <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" remote="me" revision="arrow-11.0" clone-depth="1" />
+
+    <remove-project name="platform/frameworks/opt/net/ims" />
+    <project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" remote="me" revision="arrow-11.0" clone-depth="1" />
+
+    <remove-project name="platform/frameworks/base" />
+    <project path="frameworks/base" name="platform/frameworks/base" remote="me" revision="arrow-11.0" clone-depth="1" />
+
+    <remove-project name="platform/external/selinux" />
+    <project path="external/selinux" name="platform/external/selinux" remote="me" revision="arrow-11.0" clone-depth="1" />
 </manifest>
