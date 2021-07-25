@@ -7,7 +7,6 @@
     <project path="device/realme/RMX2185" name="device_realme_RMX2185" remote="me" revision="arrow" clone-depth="1" />
     <project path="vendor/realme/RMX2185" name="vendor_realme_RMX2185" remote="irawan" revision="lineage-18.1" clone-depth="1" />
     <project path="kernel/realme/mt6765" name="android_kernel_realme_mt6765" remote="irawan" revision="lineage-17.1" clone-depth="1" />
-    <project path="hardware/mediatek" name="android_hardware_mediatek" remote="irawan" revision="lineage-18.1" clone-depth="1" />
     <project path="packages/apps/RealmeParts" name="android_packages_apps_RealmeParts" remote="irawan" revision="r" clone-depth="1" />
 
     <!-- Patches -->
