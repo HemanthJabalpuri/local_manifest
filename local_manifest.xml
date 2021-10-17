@@ -9,17 +9,6 @@
     <project path="kernel/realme/mt6765" name="android_kernel_realme_mt6765" remote="irawan" revision="lineage-17.1" clone-depth="1" />
 
     <!-- Patches -->
-<!--
-    <remove-project name="android_frameworks_opt_net_wifi" />
-    <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="me" revision="arrow-11.0" clone-depth="1" />
-
-    <remove-project name="platform/frameworks/opt/net/ims" />
-    <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="me" revision="arrow-11.0" clone-depth="1" />
-
-    <remove-project name="android_frameworks_base" />
-    <project path="frameworks/base" name="android_frameworks_base" remote="me" revision="arrow-11.0" clone-depth="1" />
-
-    <remove-project name="android_external_selinux" />
-    <project path="external/selinux" name="android_external_selinux" remote="me" revision="arrow-11.0" clone-depth="1" />
--->
+    <remove-project name="platform/external/selinux" />
+    <project path="external/selinux" name="android_external_selinux" remote="https://github.com/Los-FE" revision="lineage-18.1" clone-depth="1" />
 </manifest>
