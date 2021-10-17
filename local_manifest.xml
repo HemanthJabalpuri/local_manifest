@@ -2,6 +2,7 @@
 <manifest>
     <remote name="me" fetch="https://github.com/HemanthJabalpuri" />
     <remote name="irawan" fetch="https://github.com/dodyirawan85" />
+    <remote name="patch" fetch="https://github.com/Los-FE" />
 
     <!-- Device and Vendor trees -->
     <project path="device/realme/RMX2185" name="device_realme_RMX2185" remote="me" revision="havoc" clone-depth="1" />
@@ -10,5 +11,5 @@
 
     <!-- Patches -->
     <remove-project name="platform/external/selinux" />
-    <project path="external/selinux" name="android_external_selinux" remote="https://github.com/Los-FE" revision="lineage-18.1" clone-depth="1" />
+    <project path="external/selinux" name="android_external_selinux" remote="patch" revision="lineage-18.1" clone-depth="1" />
 </manifest>
