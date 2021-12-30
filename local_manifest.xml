@@ -2,11 +2,13 @@
 <manifest>
     <remote name="me" fetch="https://github.com/HemanthJabalpuri" />
     <remote name="irawan" fetch="https://github.com/dodyirawan85" />
+    <remote name="techyminati" fetch="https://github.com/techyminati" />
 
     <!-- Device and Vendor trees -->
     <project path="device/realme/RMX2185" name="device_realme_RMX2185" remote="me" revision="arrow-12" clone-depth="1" />
     <project path="vendor/realme/RMX2185" name="vendor_realme_RMX2185" remote="me" revision="lineage-18.1" clone-depth="1" />
     <project path="kernel/realme/mt6765" name="android_kernel_realme_mt6765" remote="irawan" revision="lineage-17.1" clone-depth="1" />
+    <project path="vendor/realme-ims" name="android_vendor_realme-ims" remote="techyminati" revision="twelve" clone-depth="1" />
 
     <!-- Patches -->
 <!--
