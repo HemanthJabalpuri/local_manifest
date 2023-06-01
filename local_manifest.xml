@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote name="me" fetch="https://github.com/HemanthJabalpuri" />
-    <remote name="los" fetch="https://github.com/moto-sm6225" />
+    <remote name="los" fetch="https://github.com/LineageOS" />
     <remote name="muppets" fetch="https://github.com/TheMuppets" />
 
     <project path="device/motorola/sm6225-common" name="android_device_motorola_sm6225-common" remote="los" revision="lineage-20" clone-depth="1" />
