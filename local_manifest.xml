@@ -4,9 +4,18 @@
     <remote name="los" fetch="https://github.com/LineageOS" />
     <remote name="muppets" fetch="https://github.com/TheMuppets" />
 
+    <!-- https://github.com/LineageOS/android_device_motorola_sm6225-common -->
     <project path="device/motorola/sm6225-common" name="android_device_motorola_sm6225-common" remote="los" revision="lineage-20" clone-depth="1" />
+
+    <!-- https://github.com/TheMuppets/proprietary_vendor_motorola_sm6225-common -->
     <project path="vendor/motorola/sm6225-common" name="proprietary_vendor_motorola_sm6225-common" remote="muppets" revision="lineage-20" clone-depth="1" />
+
+    <!-- https://github.com/LineageOS/android_kernel_motorola_sm6225 -->
     <project path="kernel/motorola/sm6225" name="android_kernel_motorola_sm6225" remote="los" revision="lineage-20" clone-depth="1" />
+
+    <!-- https://github.com/LineageOS/android_device_motorola_rhode -->
     <project path="device/motorola/rhode" name="android_device_motorola_rhode" remote="los" revision="lineage-20" clone-depth="1" />
+
+    <!-- https://github.com/TheMuppets/proprietary_vendor_motorola_rhode -->
     <project path="vendor/motorola/rhode" name="proprietary_vendor_motorola_rhode" remote="muppets" revision="lineage-20" clone-depth="1" />
 </manifest>
